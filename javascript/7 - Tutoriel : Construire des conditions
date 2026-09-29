@@ -1,0 +1,28 @@
+let age11 = 16;
+let permis11 = true;
+if (age11 >= 18 || permis11 === true) {
+    console.log("Accès autorisé");
+}
+if (age11<=18 || permis11===false){
+    console.log("acces autorise");
+}
+
+let age12 = 17;
+
+if (age12 <= 18) {
+    console.log("Majeur");
+} else {
+    console.log("Mineur");
+}
+
+let nombre12 = 5;
+
+if (nombre12 > 1) {
+    console.log ("Positif");
+}
+
+else if(nombre12 < 1)
+    {console.log("hhhhhh")}
+else {
+    console.log("Négatif ou nul");
+}
