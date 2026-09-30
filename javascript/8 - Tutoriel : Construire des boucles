@@ -1,0 +1,22 @@
+for(let nn=23;nn<=26;nn++){console.log("for",nn)}
+
+
+for (let nombre7 = 1; nombre7 <= 10; nombre7++) {
+
+    if (nombre7 % 2 === 0) {
+        console.log(nombre7 + " est pair");
+    } else {
+        console.log(nombre7 + " est impair");
+    }
+
+}
+
+
+
+let ww1=9;
+while(ww1<=4 ,ww1=ww1-1)
+    {console.log(ww1)}
+
+
+let uu=10;
+while( uu<=10 , uu=uu-1){console.log("while",uu)}
