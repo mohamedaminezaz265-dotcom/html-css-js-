@@ -1,0 +1,20 @@
+
+let paire=0;
+for(let yy=1;yy<=10;yy++)
+if(yy%2===0){
+
+console.log("paire",yy)
+paire=paire+1
+}else{console.log("impaire",yy)}
+console.log(paire,"total paire")
+
+
+
+let ww=1;
+while(ww<=10)
+{console.log("while",ww++)}
+
+let dd=1;
+do{
+console.log(dd ++,"do while")
+}while(dd<=10)
