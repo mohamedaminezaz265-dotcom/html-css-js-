@@ -1,0 +1,13 @@
+
+
+for(let yy=1;yy<=10;yy++){
+let texte=" ";
+for(let ss=1;ss<=10-yy;ss++)
+texte=texte+" ";
+for(let et=1;et<=(2*yy)-1;et++)
+texte=texte+"*";
+
+console.log(texte)
+
+
+}
