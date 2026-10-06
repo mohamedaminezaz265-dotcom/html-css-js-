@@ -1,3 +1,7 @@
+
+Balise = le tag
+
+
 | Élément            | Définition / rôle                                                           |
 | ------------------ | --------------------------------------------------------------------------- |
 | `<p>`              | **Balise ouvrante** qui indique le début d’un paragraphe.                   |
@@ -6,3 +10,4 @@
 | `lang`             | **Attribut** qui donne une information supplémentaire à une balise.         |
 | `"fr"`             | **Valeur de l’attribut** `lang`, qui indique que la langue est le français. |
 | `<html lang="fr">` | Élément `<html>` avec l’**attribut** `lang` et sa **valeur** `"fr"`.        |
+
