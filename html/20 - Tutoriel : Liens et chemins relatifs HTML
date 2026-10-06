@@ -1,0 +1,17 @@
+| Élément               | Une explication simple de mon rôle                                               |
+| --------------------- | -------------------------------------------------------------------------------- |
+| `<a>`                 | Je crée un lien cliquable qui permet d’aller vers une autre page ou ressource.   |
+| `href`                | Je précise vers quelle page ou quel fichier le lien doit aller.                  |
+| `index.html`          | Je indique le fichier que je veux ouvrir lorsqu’il est dans le même dossier.     |
+| `pages/articles.html` | Je indique le chemin vers `articles.html` qui se trouve dans le dossier `pages`. |
+| `..`                  | Je remonte d’un niveau vers le dossier parent.                                   |
+| `<br>`                | Je fais passer le lien suivant à la ligne.                                       |
+
+
+<h1>Liens et chemins relatifs HTML</h1>
+    <p>Un lien permet d'accéder à une autre page du site.</p>
+<a href="index.html">Accueil</a>
+    
+    <br>
+
+    <a href="pages/articles.html">Voir les articles</a>
