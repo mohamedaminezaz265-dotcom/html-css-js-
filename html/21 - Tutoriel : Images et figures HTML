@@ -1,0 +1,24 @@
+
+
+| Élément        | Une explication simple de mon rôle                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------ |
+| `<img>`        | J’affiche une image sur ma page HTML.                                                            |
+| `src`          | Je donne le chemin pour trouver l’image.                                                         |
+| `alt`          | Je décris l’image avec un texte alternatif si elle ne s’affiche pas ou pour une liseuse d’écran. |
+| `width`        | Je définis la largeur de l’image.                                                                |
+| `height`       | Je définis la hauteur de l’image.                                                                |
+| `<figure>`     | Je regroupe une image avec les informations qui lui sont associées.                              |
+| `<figcaption>` | Je donne une légende ou une explication à l’image.                                               |
+
+
+
+<figure>
+
+    <img src="images/article-example.600.jpg"
+         alt="Développeur écrivant du code">
+
+    <figcaption>
+        Le développeur écrit le code de l'application.
+    </figcaption>
+
+</figure>
