@@ -1,0 +1,76 @@
+
+| Élément                  | Ton rôle                                                        |
+| ------------------------ | --------------------------------------------------------------- |
+| `<meta charset="UTF-8">` | Assurer l’affichage correct des accents et caractères spéciaux. |
+| `<title>`                | Définir le nom de l’onglet du navigateur.                       |
+| `<h1>`                   | Créer le titre principal de la page.                            |
+| `<h2>`                   | Créer un sous-titre de niveau 2.                                |
+| `<h3>`                   | Créer un sous-titre de niveau 3.                                |
+| `<p>`                    | Créer un paragraphe.                                            |
+| `<strong>`               | Mettre en évidence une information importante.                  |
+| `<time>`                 | Indiquer une date ou une heure.                                 |
+| `datetime`               | Donner la valeur technique de la date.                          |
+| `<blockquote>`           | Présenter une citation sous forme de bloc.                      |
+| `<cite>`                 | Indiquer la source de la citation.                              |
+| `<br>`                   | Faire un retour à la ligne.                                     |
+| `<hr>`                   | Séparer deux parties avec une ligne horizontale.                |
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Le métier de développeur</title>
+</head>
+
+<body>
+
+    <h1>Le métier de développeur et ses principales missions</h1>
+
+    <p>
+        Publié le <time datetime="2026-02-14">14 Février 2026</time>
+    </p>
+
+    <p>
+        Le <strong>développeur</strong> crée des applications.
+        Il transforme un besoin en solution informatique.
+    </p>
+
+    <h2>Le rôle du développeur</h2>
+
+    <p>
+        La première mission est d'analyser le besoin.
+        Le développeur cherche les fonctionnalités nécessaires.
+    </p>
+
+    <h3>Réaliser l'application</h3>
+
+    <p>
+        Le développeur écrit le code de l'application.<br>
+        Il organise son travail et crée les fonctionnalités demandées.
+    </p>
+
+    <blockquote>
+        <p>
+            Le développeur réalise l'application à partir du besoin.
+            Il utilise des technologies comme HTML, CSS et JavaScript.
+        </p>
+        <cite>— Métier de développeur</cite>
+    </blockquote>
+
+    <hr>
+
+</body>
+
+</html>
