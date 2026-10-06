@@ -1,0 +1,37 @@
+| Élément     | Mon rôle                                                                                    |
+| ----------- | ------------------------------------------------------------------------------------------- |
+| `<div>`     | Je regroupe plusieurs éléments dans un même bloc.                                           |
+| `<span>`    | J’isole une petite partie de texte dans une ligne.                                          |
+| `<article>` | Je regroupe un contenu qui peut être compris de manière autonome, comme un article de blog. |
+| `<header>`  | Je crée l’en-tête d’une page ou d’un article.                                               |
+| `<main>`    | Je définis le contenu principal de la page.                                                 |
+| `<section>` | Je divise le contenu en différentes sections.                                               |
+| `class`     | Je donne un nom à un élément pour pouvoir l’identifier et le styliser avec CSS.             |
+| `<ul>`      | Je crée une liste à puces.                                                                  |
+| `<li>`      | Je crée un élément à l’intérieur d’une liste.                                               |
+
+
+<article>                         <!-- Mon article complet -->
+
+    <header>                      <!-- Présentation de l'article -->
+        <span>Développement</span> <!-- Catégorie -->
+        <h2>Le rôle du développeur</h2> <!-- Titre -->
+    </header>
+
+    <main>                        <!-- Contenu important -->
+
+        <section>                 <!-- Partie sur le sujet -->
+            <p>Le développeur crée des applications.</p>
+
+            <ul>                  <!-- Ma liste -->
+                <li>Analyser le besoin</li>       <!-- Information 1 -->
+                <li>Réaliser l'application</li>   <!-- Information 2 -->
+                <li>Vérifier l'application</li>   <!-- Information 3 -->
+                <li>Déployer l'application</li>   <!-- Information 4 -->
+            </ul>
+
+        </section>
+
+    </main>
+
+</article>
