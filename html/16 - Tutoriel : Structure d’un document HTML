@@ -1,0 +1,25 @@
+Structure complète d’un document HTML
+1. Code complet
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mon premier article</title>
+</head>
+
+<body>
+    <p>Le développeur crée des applications.</p>
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>` | Indique au navigateur que le document utilise **HTML5**. 
+<html>` | Élément racine qui contient **toute la page HTML**. 
+lang="fr"` | Indique que la **langue principale** de la page est le français. 
+<head>` | Contient les **informations techniques** de la page. 
+<title>` | Définit le **titre affiché dans l’onglet** du navigateur. 
+<body>` | Contient tout le **contenu visible** par l’utilisateur. 
+<p>` | Permet de créer un **paragraphe de texte**. 
+</...>` | Permet de **fermer une balise** ouverte.
