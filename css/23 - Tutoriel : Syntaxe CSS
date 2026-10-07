@@ -1,0 +1,10 @@
+selecteur {
+    propriete: valeur;
+}
+
+
+p{
+color:red;
+
+
+}
