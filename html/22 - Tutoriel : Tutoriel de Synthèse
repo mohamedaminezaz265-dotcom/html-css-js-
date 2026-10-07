@@ -1,0 +1,215 @@
+HTML
+
+<!DOCTYPE html> → HTML5
+
+<html> → page complète
+
+<head> → informations techniques
+
+<meta charset="UTF-8"> → lecture des caractères
+
+<title> → titre de l’onglet
+
+<link> → relier le CSS
+
+<body> → contenu visible
+
+<article> → article complet
+
+<header> → introduction / en-tête
+
+<main> → contenu principal
+
+<section> → partie du contenu
+
+<h1> → titre principal
+
+<h2> → titre de section
+
+<h3> → sous-titre
+
+<p> → paragraphe
+
+<strong> → texte important / gras
+
+<div> → regrouper les éléments
+
+<span> → petite partie de texte
+
+<img> → image
+
+src → emplacement de l’image
+
+alt → description de l’image
+
+<figure> → image + informations associées
+
+<figcaption> → description / légende de l’image
+
+<time> → date / heure
+
+datetime → valeur technique de la date
+
+<blockquote> → citation
+
+<cite> → source de la citation
+
+<ul> → liste à puces
+
+<li> → élément de la liste
+
+<br> → retour à la ligne
+
+class → nom pour le CSS
+
+id → nom unique de l’élément
+
+
+("code")
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Métier de développeur - Les principales missions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <article>
+
+        <header class="article-header">
+
+            <strong class="article-category">Développement</strong>
+
+            <h1>Le métier de développeur et ses principales missions</h1>
+
+            <div class="article-meta">
+
+                <div class="article-author">
+                    <img id="img1" src="author.jpg" 
+alt="Portrait d'un développeur">
+
+                    <div id="div1">
+                        <strong>Madani Ali</strong>
+                        <span>Auteur du blog</span>
+                    </div>
+                </div>
+
+                <time  datetime="2026-02-14">14 Février 2026</time>
+
+                <span>5 min de lecture</span>
+
+            </div>
+
+        </header>
+
+<br>
+        <figure class="article-cover">
+            <img  src="article-cover.png" 
+alt="Écran montrant du code informatique">
+        </figure>
+<br>
+
+        <main class="article-main">
+
+            <section class="article-body">
+
+                <h2>Le rôle du développeur</h2>
+
+                <p>
+                    Le développeur crée des applications.
+                    Il transforme un besoin en solution informatique.
+                    Son travail se fait en plusieurs étapes.
+                    Il doit bien comprendre le projet.
+                </p>
+
+                <p>
+                    La première mission est d'analyser le besoin.
+                    Le développeur cherche les fonctionnalités nécessaires.
+                    Il étudie les informations à utiliser.
+                    Il peut aussi analyser une base de données.
+                </p>
+
+
+                <h3>Réaliser l'application</h3>
+
+                <figure class="article-figure">
+
+                    <img src="article-example.png" alt="Développeur écrivant du code">
+
+                    <figcaption>
+                        Le développeur écrit le code de l'application.
+                    </figcaption>
+
+                </figure>
+
+
+                <blockquote class="article-blockquote">
+
+                    <p>
+                        Le développeur réalise l'application à partir du besoin.
+                        Il utilise des technologies comme HTML, CSS et JavaScript.
+                        Il organise son code et crée les fonctionnalités demandées.
+                    </p>
+
+                    <cite>— Métier de développeur</cite>
+
+                </blockquote>
+
+
+                <p>
+                    Après la réalisation, le développeur doit vérifier l'application.
+                    Il réalise des tests pour trouver les erreurs.
+                    Il fait aussi du débogage pour corriger le code.
+                </p>
+
+
+                <ul class="article-list">
+
+                    <li>
+                        <strong>Analyser le besoin</strong> :
+                        comprendre le projet et identifier les fonctionnalités.
+                    </li>
+
+                    <li>
+                        <strong>Réaliser l'application</strong> :
+                        écrire le code et développer les fonctionnalités.
+                    </li>
+
+                    <li>
+                        <strong>Vérifier l'application</strong> :
+                        tester l'application et corriger les erreurs.
+                    </li>
+
+                    <li>
+                        <strong>Déployer l'application</strong> :
+                        mettre l'application sur un serveur pour la rendre disponible.
+                    </li>
+
+                </ul>
+
+
+                <h3>Travailler en équipe</h3>
+
+                <p>
+                    Le développeur travaille aussi avec une équipe.
+                    Il échange avec les autres membres du projet.
+                    Il partage son code et ses informations.
+                    Il participe aux différentes étapes du projet.
+                    La collaboration est importante pour réussir le projet.
+                </p>
+
+            </section>
+
+        </main>
+
+    </article>
+
+</body>
+
+</html>
+
