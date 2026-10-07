@@ -1,0 +1,7 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Liaison HTML-CSS</title>
+    
+    <!-- Ligne ajoutée pour lier le CSS -->
+    <link rel="stylesheet" href="tuto-2-css.css">
+</head>
