@@ -1,0 +1,25 @@
+<body>
+<span class="a">A</span>
+<span class="b">B</span>
+<span class="c">C</span>
+</body>
+
+css
+
+
+.a {
+    display: inline-block;
+}
+.a{
+
+display: block;
+
+}
+.a{
+
+display: inline;
+}
+.a{
+display: none;
+}
+
