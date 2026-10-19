@@ -1,0 +1,9 @@
+
+
+<h1 id="t1">salam 1</h1>
+<button onclick="document.getElementById('t1').textContent='wa3alaykom salam'">
+click my
+</button>
+<button onclick="document.getElementById('t1').style.display='none'">
+click my 
+</button>
