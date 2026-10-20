@@ -1,0 +1,21 @@
+// How to Declare variables:
+let x = 5;
+let y = 6;
+
+// How to Compute values:
+let z = x + y;
+
+// I am a Comment. I do Nothing
+
+
+const x = 5;
+const y = 6;
+const z = x + y;
+
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+
+typeof ""             // Returns "string"
+typeof "John"         // Returns "string"
+typeof "John Doe"     // Returns "string"
