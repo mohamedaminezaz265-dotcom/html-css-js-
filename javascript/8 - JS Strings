@@ -1,0 +1,9 @@
+let x = "John";
+let y = new String("John");
+
+
+let firstName = "John";
+let lastName = "Doe";
+
+let text = `Welcome ${firstName}, ${lastName}!`;
+
