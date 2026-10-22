@@ -1,0 +1,24 @@
+function greet(name) {
+  console.log("Hello " + name);
+}
+
+greet("Amine");
+
+function multiply(a, b) {
+  return a * b;
+}
+
+let result = multiply(4, 3);
+console.log(result);
+
+
+function checkAge(age) {
+  if (age >= 18) {
+    return "Adult";
+  } else {
+    return "Minor";
+  }
+}
+
+console.log(checkAge(20));
+console.log(checkAge(15));
