@@ -1,0 +1,14 @@
+function employee(name,salary,city){
+this.name=name,
+this.city=city,
+this.salary=salary;
+
+}
+let employee1=new employee("amine",5000,"tanger")
+let employee2=new employee("sara",6500,"rabat")
+employee1.salary=5500;
+  employee2.departement="it";
+console.log(employee1.name)
+console.log(employee1.salary)
+console.log(employee2.departement)
+console.log(employee2)
